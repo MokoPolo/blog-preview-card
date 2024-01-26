@@ -13,14 +13,19 @@ const Card: React.FC = () => {
       style={{ boxShadow: "8px 8px 1px black" }}
     >
       <img className="rounded-lg" src="./images/illustration-article.svg"></img>
-      <p>Learning </p>
-      <h1>Published 21 Dec 2023</h1>
-      <p className="font-extrabold text-lg">HTML & CSS foundations</p>
-      <p className="py-3">
+      <p
+        className="mt-4 mb-2 px-3 font-bold rounded"
+        style={{ backgroundColor: "hsl(47, 88%, 63%)" }}
+      >
+        Learning{" "}
+      </p>
+      <h1 className="text-sm mt-1">Published 21 Dec 2023</h1>
+      <p className="font-extrabold text-xl mt-2">HTML & CSS foundations</p>
+      <p className="py-2 text-gray-400">
         These languages are the backbone of every website, defining structure,
         content, and presentation.{" "}
       </p>
-      <div className="flex my-4">
+      <div className="flex my-2">
         <img src="./images/image-avatar.webp" className="w-8 h-8" />
         <div className="flex items-center">
           <span className="ml-3 font-bold">Greg Hooper</span>
