@@ -4,9 +4,9 @@ import Card from "./components/card";
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <main className="flex items-center justify-center h-screen">
       <Card></Card>
-    </div>
+    </main>
   );
 }
 

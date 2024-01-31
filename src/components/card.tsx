@@ -12,7 +12,12 @@ const Card: React.FC = () => {
       className="card flex flex-col items-start justify-center bg-white rounded-xl w-[350px] p-4 border border-black"
       style={{ boxShadow: "8px 8px 1px black" }}
     >
-      <img className="rounded-lg" src="./images/illustration-article.svg"></img>
+      <img
+        className="rounded-lg"
+        alt="Illustration image"
+        src="./images/illustration-article.svg"
+      ></img>
+
       <p
         className="mt-4 mb-2 px-3 font-bold rounded"
         style={{ backgroundColor: "hsl(47, 88%, 63%)" }}
@@ -26,7 +31,11 @@ const Card: React.FC = () => {
         content, and presentation.{" "}
       </p>
       <div className="flex my-2">
-        <img src="./images/image-avatar.webp" className="w-8 h-8" />
+        <img
+          src="./images/image-avatar.webp"
+          alt="Image of avatar"
+          className="w-8 h-8"
+        />
         <div className="flex items-center">
           <span className="ml-3 font-bold">Greg Hooper</span>
         </div>
